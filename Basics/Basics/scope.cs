@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Basics
 {
-    class scope
+    class Scope
     {
         private static string k = "";
         static void Main(string[] args)
@@ -37,6 +37,48 @@ namespace Basics
         static void HelperMEthod()
         {
             Console.WriteLine("Value of the k from the HelperMEthod(): " + k);
+        }
+        
+    }
+
+
+    /*Accessibility Modifiers : These are accessibility modifieres
+    They are used to implement attended Object Oriented Programming called ENCAPSULATION.
+      1- Public: a public method is what's actually going to be then called by somebody outside of the class
+      2- Private : is only goin to be called by codes inside the class.
+    */
+    class Instances
+    {
+        static public void Print()
+        {
+            Vehicle myCar = new Vehicle();
+            myCar.DoSomething();
+            // we just have access to DoSomething method ( becuz it's public method)
+        }
+
+
+    }
+
+    class Vehicle
+    {
+        public string Make { get; set; }
+        public int Year { get; set; }
+        public string Color { get; set; }
+
+        //Contructor
+        public Vehicle()
+        {
+            Year = 1986;
+        }
+
+        public void DoSomething()
+        {
+            Console.WriteLine(HelperMethod());
+        }
+
+        private string HelperMethod()
+        {
+            return "Ice-Cream";
         }
     }
 }
