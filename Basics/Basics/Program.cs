@@ -12,6 +12,8 @@ namespace Basics
         {
             Car myCar = new Car();
 
+            //call static method, statoc method don't need to create a new intstance from class we can use them directly.
+            Car.MyMethod();
             /*
             myCar.Make = "Oldmobile";
             myCar.Model = "Cutlas Supreme";
@@ -74,6 +76,11 @@ namespace Basics
             Model = Model;
             Year = year;
             Color = color;
+        }
+
+        public static void MyMethod()
+        {
+            Console.WriteLine("Called my static method");
         }
     }
 }
