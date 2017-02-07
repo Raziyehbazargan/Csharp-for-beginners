@@ -12,10 +12,15 @@ namespace Basics
         {
             Car myCar = new Car();
 
+            /*
             myCar.Make = "Oldmobile";
             myCar.Model = "Cutlas Supreme";
             myCar.Year = 1986;
             myCar.Color = "Silver";
+            */
+           
+            Car myThirdCar = new Car("Ford", "Supreme", 2005, "Red");
+            Console.WriteLine("My New Car {0}", myThirdCar.Make);
 
             //create new refrence to the same bucket in the memory
             Car myOtherCar;
@@ -53,5 +58,23 @@ namespace Basics
         public string Model { get; set; }
         public int Year { get; set; }
         public string Color { get; set; }
+
+        //Constructor: is a method that allows us as developers to execute code at moment that a new instance of a class is created
+        // by default, whenever we compile ur code, autimaticaly it will create a constructor without any input parameters for our classes.
+        // like this ==> //public Car() { }
+        public Car()
+        {
+            Make = "Nissan";
+        }
+
+        //create overloaded constructor
+        public Car(string make, string mode, int year, string color)
+        {
+            Make = make;
+            Model = Model;
+            Year = year;
+            Color = color;
+        }
     }
 }
+
