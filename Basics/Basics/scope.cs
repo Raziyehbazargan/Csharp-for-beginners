@@ -17,7 +17,7 @@ namespace Basics
                 j = i.ToString();
                 k = i.ToString();
                 Console.WriteLine(i);
-
+                 
                 if (i == 9)
                 {
                     string l = i.ToString();
