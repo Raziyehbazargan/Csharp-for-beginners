@@ -35,6 +35,13 @@ namespace Basics
                 myCar.Year,
                 myCar.Color);
 
+            //remove the handle to that bucket in the memory
+            //myOtherCar = null;
+
+            //remove all the refrences to the bucket
+            //mycar = null;
+
+            // we call this situation "garbage collection"
 
             Console.ReadLine();
         }
