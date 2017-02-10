@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics", "Basics\Basics.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssembliesandNameSpaces", "AssembliesandNameSpaces\AssembliesandNameSpaces.csproj", "{280C33B6-6865-4584-8AA8-38EA9C07870C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "createingAndAddingReferences", "createingAndAddingReferences\createingAndAddingReferences.csproj", "{CF9673E3-BFD0-4EA4-A934-8B4BBC6E42E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{280C33B6-6865-4584-8AA8-38EA9C07870C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{280C33B6-6865-4584-8AA8-38EA9C07870C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{280C33B6-6865-4584-8AA8-38EA9C07870C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF9673E3-BFD0-4EA4-A934-8B4BBC6E42E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF9673E3-BFD0-4EA4-A934-8B4BBC6E42E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF9673E3-BFD0-4EA4-A934-8B4BBC6E42E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF9673E3-BFD0-4EA4-A934-8B4BBC6E42E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
